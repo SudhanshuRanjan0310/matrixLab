@@ -1,0 +1,28 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+.user {
+  /* height: 100% !important;
+  width: 85% !important; */
+  border: 2px solid black !important;
+}
+.equalSpace{
+  display: flex !important;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.empTab {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #2e2e2e2e;
+  background-color: #817e7e;
+  min-width: 84vw;
+}
+.empTab>* {
+  flex: 1 1 18rem;
+  margin: 1rem;
+}
+
